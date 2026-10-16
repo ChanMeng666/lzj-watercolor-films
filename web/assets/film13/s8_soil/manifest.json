@@ -1,0 +1,55 @@
+{
+ "name": "s8_soil",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "soils",
+   "file": "soils.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [
+  {
+   "name": "seed",
+   "file": "sp_seed.webp",
+   "w": 60,
+   "h": 80,
+   "anchor": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "name": "sprout",
+   "file": "sp_sprout.webp",
+   "w": 200,
+   "h": 320,
+   "anchor": [
+    0.5,
+    1.0
+   ]
+  }
+ ],
+ "meta": {
+  "spots": [
+   [
+    449.28000000000003,
+    959.04
+   ],
+   [
+    1163.52,
+    959.04
+   ],
+   [
+    1877.7599999999998,
+    959.04
+   ]
+  ]
+ }
+}

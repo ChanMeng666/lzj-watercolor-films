@@ -1,0 +1,35 @@
+{
+ "name": "s7_wedding",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "guests",
+   "file": "guests.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "table",
+   "file": "table.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "crests": [
+   [
+    506.88,
+    336.96000000000004
+   ],
+   [
+    1797.1200000000001,
+    336.96000000000004
+   ]
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "name": "s9_grass",
+ "w": 2764,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "regrow",
+   "file": "regrow.webp",
+   "depth": 0.45,
+   "tmap": "regrow_t.png"
+  },
+  {
+   "name": "fg",
+   "file": "fg.webp",
+   "depth": 0.95
+  }
+ ],
+ "sprites": [
+  {
+   "name": "scholar_0",
+   "file": "sp_scholar_0.webp",
+   "w": 240,
+   "h": 320,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "scholar_1",
+   "file": "sp_scholar_1.webp",
+   "w": 240,
+   "h": 320,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "scholar_2",
+   "file": "sp_scholar_2.webp",
+   "w": 240,
+   "h": 320,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "scholar_3",
+   "file": "sp_scholar_3.webp",
+   "w": 240,
+   "h": 320,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  }
+ ],
+ "meta": {
+  "road_y": 924.254150390625
+ }
+}

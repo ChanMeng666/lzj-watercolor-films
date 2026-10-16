@@ -1,0 +1,34 @@
+{
+ "name": "s11_light",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "crowd",
+   "file": "crowd.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "one",
+   "file": "one.webp",
+   "depth": 0.45
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "one": [
+   637.4849198544263,
+   803.12
+  ]
+ }
+}

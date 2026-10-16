@@ -1,0 +1,34 @@
+{
+ "name": "s10_candle",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "arches",
+   "file": "arches.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "pool",
+   "file": "pool.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "wax",
+   "file": "wax.webp",
+   "depth": 0.4,
+   "tmap": "wax_t.png"
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "top": 311.03999999999996,
+  "bot": 1140.48,
+  "cx": 1152.0
+ }
+}

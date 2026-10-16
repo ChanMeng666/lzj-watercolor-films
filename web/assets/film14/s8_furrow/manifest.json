@@ -1,0 +1,53 @@
+{
+ "name": "s8_furrow",
+ "w": 2649,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "furrow",
+   "file": "furrow.webp",
+   "depth": 0.45,
+   "tmap": "furrow_t.png"
+  },
+  {
+   "name": "wolf",
+   "file": "wolf.webp",
+   "depth": 0.45
+  }
+ ],
+ "sprites": [
+  {
+   "name": "ox",
+   "file": "sp_ox.webp",
+   "w": 260,
+   "h": 200,
+   "anchor": [
+    0.5,
+    0.95
+   ]
+  }
+ ],
+ "meta": {
+  "furrow": [
+   1483.44,
+   959.04,
+   640,
+   150
+  ]
+ }
+}

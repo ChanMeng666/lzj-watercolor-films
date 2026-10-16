@@ -1,0 +1,38 @@
+{
+ "name": "s11_backstage",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "stage",
+   "file": "stage.webp",
+   "depth": 0.3
+  },
+  {
+   "name": "actor",
+   "file": "actor.webp",
+   "depth": 0.32
+  },
+  {
+   "name": "wings",
+   "file": "wings.webp",
+   "depth": 0.5
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "child": [
+   207.35999999999999,
+   1042.3200000000002
+  ],
+  "spot": [
+   1658.8799999999999,
+   259.2
+  ]
+ }
+}

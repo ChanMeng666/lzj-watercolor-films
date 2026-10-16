@@ -1,0 +1,58 @@
+{
+ "name": "s2_dish",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "table",
+   "file": "table.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "dish",
+   "file": "dish.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "bact",
+   "file": "bact.webp",
+   "depth": 0.4,
+   "tmap": "bact_t.png"
+  },
+  {
+   "name": "bact_in",
+   "file": "bact_in.webp",
+   "depth": 0.4,
+   "tmap": "bact_in_t.png"
+  },
+  {
+   "name": "mould",
+   "file": "mould.webp",
+   "depth": 0.4,
+   "tmap": "mould_t.png"
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "colonies": [
+   [
+    1082.0,
+    788.64,
+    124,
+    270
+   ],
+   [
+    1397.0,
+    584.64,
+    46,
+    124
+   ],
+   [
+    1342.0,
+    992.64,
+    36,
+    100
+   ]
+  ]
+ }
+}

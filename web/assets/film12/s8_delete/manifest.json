@@ -1,0 +1,35 @@
+{
+ "name": "s8_delete",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "thicket",
+   "file": "thicket.webp",
+   "depth": 0.45,
+   "tmap": "thicket_t.png"
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "eyes": [
+   1152.0,
+   725.7600000000001
+  ]
+ }
+}

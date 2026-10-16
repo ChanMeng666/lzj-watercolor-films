@@ -1,0 +1,93 @@
+{
+ "name": "s8_statue",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  }
+ ],
+ "sprites": [
+  {
+   "name": "sap_0",
+   "file": "sp_sap_0.webp",
+   "w": 140,
+   "h": 180,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "sap_1",
+   "file": "sp_sap_1.webp",
+   "w": 140,
+   "h": 180,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "leaver_0",
+   "file": "sp_leaver_0.webp",
+   "w": 220,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "leaver_1",
+   "file": "sp_leaver_1.webp",
+   "w": 220,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "leaver_2",
+   "file": "sp_leaver_2.webp",
+   "w": 220,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "leaver_3",
+   "file": "sp_leaver_3.webp",
+   "w": 220,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  }
+ ],
+ "meta": {
+  "sapling": [
+   970,
+   1006.08984375
+  ],
+  "circle": [
+   1658.8799999999999,
+   1084.8350830078125
+  ],
+  "lamp": [
+   1658.8799999999999,
+   1054.8350830078125
+  ]
+ }
+}

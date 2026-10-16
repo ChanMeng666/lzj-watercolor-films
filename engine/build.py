@@ -11,7 +11,8 @@ sys.path.insert(0, os.path.join(ROOT, "engine"))
 sys.path.insert(0, os.path.join(ROOT, "scenes"))
 FILMS = {"film1": "film1_roots", "film2": "film2_seasons", "film3": "film3_seedvault", "film4": "film4_basin",
          "film5": "film5_sand", "film6": "film6_invention", "film7": "film7_footpath", "film8": "film8_blood",
-         "film9": "film9_blackbox", "film10": "film10_carrot"}
+         "film9": "film9_blackbox", "film10": "film10_carrot",
+         "film11": "film11_mould", "film12": "film12_ladder", "film13": "film13_clan", "film14": "film14_station"}
 ASSETS = os.path.join(ROOT, "web", "assets")
 PREV = os.path.join(ROOT, "out", "preview")
 

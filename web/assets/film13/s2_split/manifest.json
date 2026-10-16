@@ -1,0 +1,95 @@
+{
+ "name": "s2_split",
+ "w": 2534,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "hall",
+   "file": "hall.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "roof",
+   "file": "roof.webp",
+   "depth": 0.45
+  }
+ ],
+ "sprites": [
+  {
+   "name": "walker_0",
+   "file": "sp_walker_0.webp",
+   "w": 200,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "walker_1",
+   "file": "sp_walker_1.webp",
+   "w": 200,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "walker_2",
+   "file": "sp_walker_2.webp",
+   "w": 200,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "walker_3",
+   "file": "sp_walker_3.webp",
+   "w": 200,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "walker_4",
+   "file": "sp_walker_4.webp",
+   "w": 200,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "walker_5",
+   "file": "sp_walker_5.webp",
+   "w": 200,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  }
+ ],
+ "meta": {
+  "center": [
+   1267.0,
+   1166.4
+  ]
+ }
+}

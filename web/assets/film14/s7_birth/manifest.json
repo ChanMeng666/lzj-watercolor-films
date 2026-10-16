@@ -1,0 +1,28 @@
+{
+ "name": "s7_birth",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "table",
+   "file": "table.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "flame": [
+   829.4399999999999,
+   745.04
+  ],
+  "cradle": [
+   1382.3999999999999,
+   859.04
+  ]
+ }
+}

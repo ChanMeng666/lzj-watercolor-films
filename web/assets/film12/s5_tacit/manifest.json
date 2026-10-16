@@ -1,0 +1,38 @@
+{
+ "name": "s5_tacit",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "shop",
+   "file": "shop.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "tags": [
+   [
+    1566.72,
+    776.8
+   ],
+   [
+    1981.44,
+    776.8
+   ]
+  ],
+  "crack": [
+   1981.44,
+   936.8
+  ],
+  "hand": [
+   760.32,
+   916.8
+  ]
+ }
+}

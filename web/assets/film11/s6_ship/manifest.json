@@ -1,0 +1,46 @@
+{
+ "name": "s6_ship",
+ "w": 2995,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "sea",
+   "file": "sea.webp",
+   "depth": 0.3
+  },
+  {
+   "name": "shore",
+   "file": "shore.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "fgw",
+   "file": "fgw.webp",
+   "depth": 0.8
+  }
+ ],
+ "sprites": [
+  {
+   "name": "ship",
+   "file": "sp_ship.webp",
+   "w": 560,
+   "h": 520,
+   "anchor": [
+    0.5,
+    0.86
+   ]
+  }
+ ],
+ "meta": {
+  "sea_y": 1010.88,
+  "shore": [
+   2455.8999999999996,
+   959.04
+  ]
+ }
+}

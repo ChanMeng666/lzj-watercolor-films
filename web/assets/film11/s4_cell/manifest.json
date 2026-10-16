@@ -1,0 +1,38 @@
+{
+ "name": "s4_cell",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "wall",
+   "file": "wall.webp",
+   "depth": 0.2
+  },
+  {
+   "name": "books",
+   "file": "books.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "fig",
+   "file": "fig.webp",
+   "depth": 0.45
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "flame": [
+   1594.56,
+   1040.48
+  ],
+  "books": [
+   599.04,
+   648.0
+  ]
+ }
+}

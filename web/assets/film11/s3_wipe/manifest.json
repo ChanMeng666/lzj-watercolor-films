@@ -1,0 +1,59 @@
+{
+ "name": "s3_wipe",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "table",
+   "file": "table.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "dish",
+   "file": "dish.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "bact",
+   "file": "bact.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "mould",
+   "file": "mould.webp",
+   "depth": 0.4,
+   "tmap": "mould_t.png"
+  },
+  {
+   "name": "flood",
+   "file": "flood.webp",
+   "depth": 0.4,
+   "tmap": "flood_t.png"
+  },
+  {
+   "name": "hard",
+   "file": "hard.webp",
+   "depth": 0.4,
+   "tmap": "hard_t.png"
+  }
+ ],
+ "sprites": [
+  {
+   "name": "cloth",
+   "file": "sp_cloth.webp",
+   "w": 360,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.5
+   ]
+  }
+ ],
+ "meta": {
+  "dish": [
+   1152.0,
+   764.64,
+   440
+  ]
+ }
+}

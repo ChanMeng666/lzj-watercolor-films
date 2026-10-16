@@ -1,0 +1,89 @@
+{
+ "name": "s12_match",
+ "w": 2649,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "street",
+   "file": "street.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [
+  {
+   "name": "girl_0",
+   "file": "sp_girl_0.webp",
+   "w": 160,
+   "h": 220,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "girl_1",
+   "file": "sp_girl_1.webp",
+   "w": 160,
+   "h": 220,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "girl_2",
+   "file": "sp_girl_2.webp",
+   "w": 160,
+   "h": 220,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "girl_3",
+   "file": "sp_girl_3.webp",
+   "w": 160,
+   "h": 220,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  }
+ ],
+ "meta": {
+  "church_x": 520,
+  "hall": [
+   2009,
+   1036.8
+  ],
+  "wins": [
+   [
+    1853.0,
+    899.8,
+    22.0
+   ],
+   [
+    1957.0,
+    899.8,
+    22.0
+   ],
+   [
+    2061.0,
+    899.8,
+    22.0
+   ],
+   [
+    2165.0,
+    899.8,
+    22.0
+   ]
+  ],
+  "street_y": 1076.8
+ }
+}

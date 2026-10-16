@@ -1,0 +1,52 @@
+{
+ "name": "s10_spider",
+ "w": 2764,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "pond",
+   "file": "pond.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "depth",
+   "file": "depth.webp",
+   "depth": 0.3
+  }
+ ],
+ "sprites": [
+  {
+   "name": "spider_0",
+   "file": "sp_spider_0.webp",
+   "w": 220,
+   "h": 120,
+   "anchor": [
+    0.5,
+    0.75
+   ]
+  },
+  {
+   "name": "spider_1",
+   "file": "sp_spider_1.webp",
+   "w": 220,
+   "h": 120,
+   "anchor": [
+    0.5,
+    0.75
+   ]
+  },
+  {
+   "name": "spider_2",
+   "file": "sp_spider_2.webp",
+   "w": 220,
+   "h": 120,
+   "anchor": [
+    0.5,
+    0.75
+   ]
+  }
+ ],
+ "meta": {
+  "water": 544.3199999999999
+ }
+}

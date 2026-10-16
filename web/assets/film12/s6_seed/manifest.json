@@ -1,0 +1,36 @@
+{
+ "name": "s6_seed",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "seed",
+   "file": "seed.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "forest",
+   "file": "forest.webp",
+   "depth": 0.4,
+   "tmap": "forest_t.png"
+  },
+  {
+   "name": "paving",
+   "file": "paving.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "weeds",
+   "file": "weeds.webp",
+   "depth": 0.4,
+   "tmap": "weeds_t.png"
+  }
+ ],
+ "sprites": [],
+ "meta": {}
+}

@@ -1,0 +1,24 @@
+{
+ "name": "s4_desks",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "hall",
+   "file": "hall.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "lamp": [
+   1152.0,
+   194.4
+  ]
+ }
+}

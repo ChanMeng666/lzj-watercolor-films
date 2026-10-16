@@ -1,0 +1,30 @@
+{
+ "name": "s4_split",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "land",
+   "file": "land.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "water",
+   "file": "water.webp",
+   "depth": 0.0,
+   "tmap": "water_t.png"
+  },
+  {
+   "name": "pebble",
+   "file": "pebble.webp",
+   "depth": 0.0
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "pebble": [
+   1152.0,
+   544.3199999999999
+  ]
+ }
+}

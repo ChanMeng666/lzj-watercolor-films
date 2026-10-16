@@ -1,0 +1,40 @@
+{
+ "name": "s11_ladder",
+ "w": 2304,
+ "h": 2462,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "clouds",
+   "file": "clouds.webp",
+   "depth": 0.2
+  },
+  {
+   "name": "ground",
+   "file": "ground.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "ladder1",
+   "file": "ladder1.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "ladder2",
+   "file": "ladder2.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "hh": 2462,
+  "top2": [
+   1382.3999999999999,
+   196.96
+  ]
+ }
+}

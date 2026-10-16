@@ -1,0 +1,46 @@
+{
+ "name": "s1_courtyard",
+ "w": 2649,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "alleys",
+   "file": "alleys.webp",
+   "depth": 0.2
+  },
+  {
+   "name": "house",
+   "file": "house.webp",
+   "depth": 0.42
+  },
+  {
+   "name": "family",
+   "file": "family.webp",
+   "depth": 0.42
+  },
+  {
+   "name": "outside",
+   "file": "outside.webp",
+   "depth": 0.6
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "lamps": [
+   [
+    1324.5,
+    1046.8000000000002,
+    182.0
+   ]
+  ],
+  "lamp": [
+   1324.5,
+   1006.4000000000001
+  ]
+ }
+}

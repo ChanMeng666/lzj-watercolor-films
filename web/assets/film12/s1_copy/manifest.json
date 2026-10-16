@@ -1,0 +1,30 @@
+{
+ "name": "s1_copy",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "desk",
+   "file": "desk.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "char",
+   "file": "char.webp",
+   "depth": 0.4,
+   "tmap": "char_t.png"
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "char": [
+   1451.52,
+   591.16
+  ]
+ }
+}

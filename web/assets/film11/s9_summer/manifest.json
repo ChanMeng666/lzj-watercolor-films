@@ -1,0 +1,35 @@
+{
+ "name": "s9_summer",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "soil",
+   "file": "soil.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "roots",
+   "file": "roots.webp",
+   "depth": 0.4,
+   "tmap": "roots_t.png"
+  },
+  {
+   "name": "flowers",
+   "file": "flowers.webp",
+   "depth": 0.5
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "church": [
+   1152.0,
+   510.24
+  ]
+ }
+}
