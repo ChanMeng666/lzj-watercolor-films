@@ -1,0 +1,69 @@
+{
+ "name": "s9_boomerang",
+ "w": 2764,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "fg",
+   "file": "fg.webp",
+   "depth": 0.95
+  }
+ ],
+ "sprites": [
+  {
+   "name": "thrower_0",
+   "file": "sp_thrower_0.webp",
+   "w": 260,
+   "h": 340,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "thrower_1",
+   "file": "sp_thrower_1.webp",
+   "w": 260,
+   "h": 340,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "boomerang",
+   "file": "sp_boomerang.webp",
+   "w": 260,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.5
+   ]
+  }
+ ],
+ "meta": {
+  "thrower": [
+   460,
+   942.132080078125
+  ],
+  "far": [
+   2349.4,
+   544.3199999999999
+  ]
+ }
+}

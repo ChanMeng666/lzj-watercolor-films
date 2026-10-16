@@ -1,0 +1,43 @@
+{
+ "name": "s10_weeds",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "flowers",
+   "file": "flowers.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "resistant",
+   "file": "resistant.webp",
+   "depth": 0.45,
+   "tmap": "resistant_t.png"
+  }
+ ],
+ "sprites": [
+  {
+   "name": "plane",
+   "file": "sp_plane.webp",
+   "w": 420,
+   "h": 200,
+   "anchor": [
+    0.5,
+    0.5
+   ]
+  }
+ ],
+ "meta": {
+  "plane_y": 285.12
+ }
+}

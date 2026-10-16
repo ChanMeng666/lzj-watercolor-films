@@ -1,0 +1,24 @@
+{
+ "name": "s7_cradle",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "props",
+   "file": "props.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "lamp": [
+   1152.0,
+   388.8
+  ]
+ }
+}

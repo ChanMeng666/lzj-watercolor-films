@@ -1,0 +1,67 @@
+{
+ "name": "s5_storm",
+ "w": 2995,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "field",
+   "file": "field.webp",
+   "depth": 0.5
+  }
+ ],
+ "sprites": [
+  {
+   "name": "walker_0",
+   "file": "sp_walker_0.webp",
+   "w": 200,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "walker_1",
+   "file": "sp_walker_1.webp",
+   "w": 200,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "walker_2",
+   "file": "sp_walker_2.webp",
+   "w": 200,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "walker_3",
+   "file": "sp_walker_3.webp",
+   "w": 200,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  }
+ ],
+ "meta": {
+  "walk_y": 1140.48
+ }
+}

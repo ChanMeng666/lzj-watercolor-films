@@ -1,0 +1,24 @@
+{
+ "name": "s8_armor",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "props",
+   "file": "props.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "stamp": [
+   2027.52,
+   894.56
+  ]
+ }
+}

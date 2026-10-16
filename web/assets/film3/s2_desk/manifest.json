@@ -1,0 +1,30 @@
+{
+ "name": "s2_desk",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "desk",
+   "file": "desk.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "window": [
+   1704.96,
+   233.28,
+   380,
+   440
+  ],
+  "flame": [
+   1843.2,
+   765.2800000000002
+  ]
+ }
+}

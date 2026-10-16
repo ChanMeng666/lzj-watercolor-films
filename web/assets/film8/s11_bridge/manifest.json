@@ -1,0 +1,75 @@
+{
+ "name": "s11_bridge",
+ "w": 2764,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "river",
+   "file": "river.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "newbridge",
+   "file": "newbridge.webp",
+   "depth": 0.45
+  }
+ ],
+ "sprites": [
+  {
+   "name": "dog_0",
+   "file": "sp_dog_0.webp",
+   "w": 360,
+   "h": 280,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "dog_1",
+   "file": "sp_dog_1.webp",
+   "w": 360,
+   "h": 280,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "wolf_0",
+   "file": "sp_wolf_0.webp",
+   "w": 360,
+   "h": 280,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "wolf_1",
+   "file": "sp_wolf_1.webp",
+   "w": 360,
+   "h": 280,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  }
+ ],
+ "meta": {
+  "new": [
+   2045.36,
+   803.52
+  ]
+ }
+}

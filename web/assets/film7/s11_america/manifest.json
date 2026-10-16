@@ -1,0 +1,24 @@
+{
+ "name": "s11_america",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "hall",
+   "file": "hall.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "floor",
+   "file": "floor.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "throne": [
+   1152.0,
+   892.3200000000002
+  ]
+ }
+}

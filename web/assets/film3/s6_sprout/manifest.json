@@ -1,0 +1,31 @@
+{
+ "name": "s6_sprout",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "earth",
+   "file": "earth.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "sprouts",
+   "file": "sprouts.webp",
+   "depth": 0.4,
+   "tmap": "sprouts_t.png"
+  },
+  {
+   "name": "snow",
+   "file": "snow.webp",
+   "depth": 0.4,
+   "tmap": "snow_t.png"
+  }
+ ],
+ "sprites": [],
+ "meta": {}
+}

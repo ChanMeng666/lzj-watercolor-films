@@ -1,0 +1,24 @@
+{
+ "name": "s5_chariot",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "plain",
+   "file": "plain.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "chariot": [
+   1198.08,
+   777.6
+  ]
+ }
+}

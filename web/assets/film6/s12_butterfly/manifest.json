@@ -1,0 +1,59 @@
+{
+ "name": "s12_butterfly",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  }
+ ],
+ "sprites": [
+  {
+   "name": "bfly_0",
+   "file": "sp_bfly_0.webp",
+   "w": 340,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "name": "bfly_1",
+   "file": "sp_bfly_1.webp",
+   "w": 340,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "name": "bfly_2",
+   "file": "sp_bfly_2.webp",
+   "w": 340,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.5
+   ]
+  }
+ ],
+ "meta": {
+  "cat": [
+   737.28,
+   777.6
+  ],
+  "case": [
+   1843.2,
+   803.52
+  ]
+ }
+}

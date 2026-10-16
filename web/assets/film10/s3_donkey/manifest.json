@@ -1,0 +1,84 @@
+{
+ "name": "s3_donkey",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  }
+ ],
+ "sprites": [
+  {
+   "name": "donkey_0",
+   "file": "sp_donkey_0.webp",
+   "w": 360,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "donkey_1",
+   "file": "sp_donkey_1.webp",
+   "w": 360,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "donkey_2",
+   "file": "sp_donkey_2.webp",
+   "w": 360,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "donkey_3",
+   "file": "sp_donkey_3.webp",
+   "w": 360,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "carrot",
+   "file": "sp_carrot.webp",
+   "w": 120,
+   "h": 200,
+   "anchor": [
+    0.5,
+    0.05
+   ]
+  }
+ ],
+ "meta": {
+  "center": [
+   1152.0,
+   976.8
+  ],
+  "ring": [
+   620,
+   150
+  ]
+ }
+}

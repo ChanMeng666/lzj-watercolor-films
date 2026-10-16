@@ -1,0 +1,34 @@
+{
+ "name": "s3_king",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "fg",
+   "file": "fg.webp",
+   "depth": 0.95
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "king": [
+   1152.0,
+   852.0973510742188
+  ]
+ }
+}

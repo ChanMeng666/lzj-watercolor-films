@@ -1,0 +1,60 @@
+{
+ "name": "s2_summer",
+ "w": 2995,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "town",
+   "file": "town.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "river",
+   "file": "river.webp",
+   "depth": 0.6
+  },
+  {
+   "name": "bank",
+   "file": "bank.webp",
+   "depth": 1.0
+  }
+ ],
+ "sprites": [
+  {
+   "name": "boat",
+   "file": "sp_boat.webp",
+   "w": 300,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.86
+   ]
+  }
+ ],
+ "meta": {
+  "boats": [
+   [
+    600,
+    959.04
+   ],
+   [
+    1700,
+    1036.8
+   ],
+   [
+    2500,
+    907.1999999999999
+   ]
+  ]
+ }
+}

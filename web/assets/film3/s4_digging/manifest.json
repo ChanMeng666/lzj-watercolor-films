@@ -1,0 +1,78 @@
+{
+ "name": "s4_digging",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "slope",
+   "file": "slope.webp",
+   "depth": 0.5
+  }
+ ],
+ "sprites": [
+  {
+   "name": "digger_0",
+   "file": "sp_digger_0.webp",
+   "w": 300,
+   "h": 360,
+   "anchor": [
+    0.5,
+    0.95
+   ]
+  },
+  {
+   "name": "digger_1",
+   "file": "sp_digger_1.webp",
+   "w": 300,
+   "h": 360,
+   "anchor": [
+    0.5,
+    0.95
+   ]
+  },
+  {
+   "name": "digger_2",
+   "file": "sp_digger_2.webp",
+   "w": 300,
+   "h": 360,
+   "anchor": [
+    0.5,
+    0.95
+   ]
+  },
+  {
+   "name": "sapling",
+   "file": "sp_sapling.webp",
+   "w": 200,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  }
+ ],
+ "meta": {
+  "dig": [
+   1578.48,
+   880.6439208984375
+  ],
+  "dirt": [
+   1428.48,
+   874.6439208984375
+  ],
+  "sapling": [
+   1244.16,
+   899.8407592773438
+  ]
+ }
+}

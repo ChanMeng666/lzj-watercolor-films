@@ -1,0 +1,65 @@
+{
+ "name": "s11_gardener",
+ "w": 2764,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "fg",
+   "file": "fg.webp",
+   "depth": 0.95
+  }
+ ],
+ "sprites": [
+  {
+   "name": "digger_0",
+   "file": "sp_digger_0.webp",
+   "w": 300,
+   "h": 360,
+   "anchor": [
+    0.5,
+    0.95
+   ]
+  },
+  {
+   "name": "digger_1",
+   "file": "sp_digger_1.webp",
+   "w": 300,
+   "h": 360,
+   "anchor": [
+    0.5,
+    0.95
+   ]
+  },
+  {
+   "name": "digger_2",
+   "file": "sp_digger_2.webp",
+   "w": 300,
+   "h": 360,
+   "anchor": [
+    0.5,
+    0.95
+   ]
+  }
+ ],
+ "meta": {
+  "dig": [
+   2009.5200000000002,
+   944.6389770507812
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "lzj-watercolor-films",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "paint": "python engine/build.py",
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.62.0"
+  }
+}

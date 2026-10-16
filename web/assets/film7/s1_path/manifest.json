@@ -1,0 +1,35 @@
+{
+ "name": "s1_path",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "woods",
+   "file": "woods.webp",
+   "depth": 0.3
+  },
+  {
+   "name": "path",
+   "file": "path.webp",
+   "depth": 0.6,
+   "tmap": "path_t.png"
+  },
+  {
+   "name": "fg",
+   "file": "fg.webp",
+   "depth": 0.95
+  }
+ ],
+ "sprites": [],
+ "meta": {}
+}

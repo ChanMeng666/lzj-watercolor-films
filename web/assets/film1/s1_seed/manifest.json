@@ -1,0 +1,45 @@
+{
+ "name": "s1_seed",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "mtn",
+   "file": "mtn.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "hills",
+   "file": "hills.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "fg",
+   "file": "fg.webp",
+   "depth": 0.9
+  }
+ ],
+ "sprites": [
+  {
+   "name": "seed",
+   "file": "sp_seed.webp",
+   "w": 90,
+   "h": 70,
+   "anchor": [
+    0.5,
+    0.5
+   ]
+  }
+ ],
+ "meta": {
+  "land": [
+   1152.0,
+   1127.84765625
+  ]
+ }
+}

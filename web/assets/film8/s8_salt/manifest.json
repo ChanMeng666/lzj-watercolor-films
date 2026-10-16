@@ -1,0 +1,19 @@
+{
+ "name": "s8_salt",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  }
+ ],
+ "sprites": [],
+ "meta": {}
+}

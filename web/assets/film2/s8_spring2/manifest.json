@@ -1,0 +1,32 @@
+{
+ "name": "s8_spring2",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "hills",
+   "file": "hills.webp",
+   "depth": 0.35
+  },
+  {
+   "name": "fg",
+   "file": "fg.webp",
+   "depth": 0.9
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "lamps": [
+   [
+    1428,
+    636.5905151367188,
+    10.799999999999999
+   ]
+  ]
+ }
+}

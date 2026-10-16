@@ -1,0 +1,64 @@
+{
+ "name": "s9_swim",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "lake",
+   "file": "lake.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [
+  {
+   "name": "diver_0",
+   "file": "sp_diver_0.webp",
+   "w": 300,
+   "h": 340,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "diver_1",
+   "file": "sp_diver_1.webp",
+   "w": 300,
+   "h": 340,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "diver_2",
+   "file": "sp_diver_2.webp",
+   "w": 300,
+   "h": 340,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  }
+ ],
+ "meta": {
+  "edge": [
+   967.68,
+   907.1999999999999
+  ],
+  "water": [
+   1267.2,
+   1062.72
+  ]
+ }
+}

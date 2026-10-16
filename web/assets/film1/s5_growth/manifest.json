@@ -1,0 +1,51 @@
+{
+ "name": "s5_growth",
+ "w": 3456,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.2
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.5
+  },
+  {
+   "name": "fg",
+   "file": "fg.webp",
+   "depth": 1.0
+  }
+ ],
+ "sprites": [
+  {
+   "name": "boat",
+   "file": "sp_boat.webp",
+   "w": 260,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.86
+   ]
+  }
+ ],
+ "meta": {
+  "boats": [
+   [
+    900,
+    1082.1599999999999
+   ],
+   [
+    2300,
+    1088.6399999999999
+   ]
+  ]
+ }
+}

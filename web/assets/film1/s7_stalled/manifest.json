@@ -1,0 +1,31 @@
+{
+ "name": "s7_stalled",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "clouds",
+   "file": "clouds.webp",
+   "depth": 0.05
+  },
+  {
+   "name": "wall",
+   "file": "wall.webp",
+   "depth": 0.2
+  },
+  {
+   "name": "land",
+   "file": "land.webp",
+   "depth": 0.5
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "mark_y": 158.16229248046875
+ }
+}

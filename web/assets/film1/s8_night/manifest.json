@@ -1,0 +1,26 @@
+{
+ "name": "s8_night",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "hills",
+   "file": "hills.webp",
+   "depth": 0.2
+  },
+  {
+   "name": "tree",
+   "file": "tree.webp",
+   "depth": 0.5
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "stars_seed": 8
+ }
+}

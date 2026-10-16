@@ -1,0 +1,35 @@
+{
+ "name": "s3_blackbox",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  }
+ ],
+ "sprites": [
+  {
+   "name": "blackbox",
+   "file": "sp_blackbox.webp",
+   "w": 160,
+   "h": 130,
+   "anchor": [
+    0.5,
+    0.5
+   ]
+  }
+ ],
+ "meta": {
+  "box": [
+   1428.48,
+   919.5262451171875
+  ]
+ }
+}

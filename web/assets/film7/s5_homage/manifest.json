@@ -1,0 +1,19 @@
+{
+ "name": "s5_homage",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "hall",
+   "file": "hall.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "figs",
+   "file": "figs.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {}
+}

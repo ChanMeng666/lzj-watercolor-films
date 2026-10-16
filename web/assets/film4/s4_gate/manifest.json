@@ -1,0 +1,81 @@
+{
+ "name": "s4_gate",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "cliffs",
+   "file": "cliffs.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "road",
+   "file": "road.webp",
+   "depth": 0.6
+  }
+ ],
+ "sprites": [
+  {
+   "name": "camel_0",
+   "file": "sp_camel_0.webp",
+   "w": 420,
+   "h": 380,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "camel_1",
+   "file": "sp_camel_1.webp",
+   "w": 420,
+   "h": 380,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "camel_2",
+   "file": "sp_camel_2.webp",
+   "w": 420,
+   "h": 380,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "camel_3",
+   "file": "sp_camel_3.webp",
+   "w": 420,
+   "h": 380,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  }
+ ],
+ "meta": {
+  "road": [
+   [
+    1152.0,
+    1023.84
+   ],
+   [
+    1428.48,
+    1270.08
+   ]
+  ]
+ }
+}

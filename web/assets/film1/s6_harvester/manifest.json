@@ -1,0 +1,32 @@
+{
+ "name": "s6_harvester",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "wall",
+   "file": "wall.webp",
+   "depth": 0.2
+  },
+  {
+   "name": "stubble",
+   "file": "stubble.webp",
+   "depth": 0.55
+  },
+  {
+   "name": "wheat",
+   "file": "wheat.webp",
+   "depth": 0.55,
+   "tmap": "wheat_t.png"
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "wall_y": 803.52
+ }
+}

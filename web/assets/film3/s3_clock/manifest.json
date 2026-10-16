@@ -1,0 +1,60 @@
+{
+ "name": "s3_clock",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "tower",
+   "file": "tower.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [
+  {
+   "name": "pendulum",
+   "file": "sp_pendulum.webp",
+   "w": 120,
+   "h": 480,
+   "anchor": [
+    0.5,
+    0.03
+   ]
+  },
+  {
+   "name": "hand_h",
+   "file": "sp_hand_h.webp",
+   "w": 40,
+   "h": 120,
+   "anchor": [
+    0.5,
+    0.8333333333333334
+   ]
+  },
+  {
+   "name": "hand_m",
+   "file": "sp_hand_m.webp",
+   "w": 40,
+   "h": 165,
+   "anchor": [
+    0.5,
+    0.8787878787878788
+   ]
+  }
+ ],
+ "meta": {
+  "clock": [
+   1152.0,
+   395.52,
+   150
+  ],
+  "pivot": [
+   1152.0,
+   671.52
+  ]
+ }
+}

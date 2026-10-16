@@ -1,0 +1,25 @@
+{
+ "name": "s6_chives",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "soil",
+   "file": "soil.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "chives",
+   "file": "chives.webp",
+   "depth": 0.45,
+   "tmap": "chives_t.png"
+  }
+ ],
+ "sprites": [],
+ "meta": {}
+}

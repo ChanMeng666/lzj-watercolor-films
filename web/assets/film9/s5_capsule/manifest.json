@@ -1,0 +1,55 @@
+{
+ "name": "s5_capsule",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "space",
+   "file": "space.jpg",
+   "depth": 0.0
+  }
+ ],
+ "sprites": [
+  {
+   "name": "cap_0",
+   "file": "sp_cap_0.webp",
+   "w": 260,
+   "h": 200,
+   "anchor": [
+    1.0,
+    0.5
+   ]
+  },
+  {
+   "name": "cap_1",
+   "file": "sp_cap_1.webp",
+   "w": 260,
+   "h": 200,
+   "anchor": [
+    0.0,
+    0.5
+   ]
+  },
+  {
+   "name": "seed",
+   "file": "sp_seed.webp",
+   "w": 120,
+   "h": 90,
+   "anchor": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "name": "sprout",
+   "file": "sp_sprout.webp",
+   "w": 200,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  }
+ ],
+ "meta": {}
+}

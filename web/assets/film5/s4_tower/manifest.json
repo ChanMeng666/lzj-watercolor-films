@@ -1,0 +1,24 @@
+{
+ "name": "s4_tower",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "land",
+   "file": "land.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "tower": [
+   552.96,
+   689.7498779296875
+  ]
+ }
+}

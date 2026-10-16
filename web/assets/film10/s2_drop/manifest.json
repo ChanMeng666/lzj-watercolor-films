@@ -1,0 +1,24 @@
+{
+ "name": "s2_drop",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "bowl",
+   "file": "bowl.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "bowl": [
+   1152.0,
+   933.12
+  ]
+ }
+}

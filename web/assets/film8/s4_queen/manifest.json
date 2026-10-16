@@ -1,0 +1,39 @@
+{
+ "name": "s4_queen",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "view_ships",
+   "file": "view_ships.webp",
+   "depth": 0.0
+  },
+  {
+   "name": "view_graves",
+   "file": "view_graves.webp",
+   "depth": 0.0
+  },
+  {
+   "name": "scenery",
+   "file": "scenery.webp",
+   "depth": 0.0
+  },
+  {
+   "name": "graves",
+   "file": "graves.webp",
+   "depth": 0.0
+  },
+  {
+   "name": "desk",
+   "file": "desk.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {}
+}

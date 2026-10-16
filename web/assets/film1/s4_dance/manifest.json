@@ -1,0 +1,258 @@
+{
+ "name": "s4_dance",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "back",
+   "file": "back.webp",
+   "depth": 0.25
+  },
+  {
+   "name": "green",
+   "file": "green.webp",
+   "depth": 0.5
+  }
+ ],
+ "sprites": [
+  {
+   "name": "dancer0_0",
+   "file": "sp_dancer0_0.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer0_1",
+   "file": "sp_dancer0_1.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer0_2",
+   "file": "sp_dancer0_2.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer1_0",
+   "file": "sp_dancer1_0.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer1_1",
+   "file": "sp_dancer1_1.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer1_2",
+   "file": "sp_dancer1_2.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer2_0",
+   "file": "sp_dancer2_0.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer2_1",
+   "file": "sp_dancer2_1.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer2_2",
+   "file": "sp_dancer2_2.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer3_0",
+   "file": "sp_dancer3_0.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer3_1",
+   "file": "sp_dancer3_1.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer3_2",
+   "file": "sp_dancer3_2.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer4_0",
+   "file": "sp_dancer4_0.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer4_1",
+   "file": "sp_dancer4_1.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer4_2",
+   "file": "sp_dancer4_2.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer5_0",
+   "file": "sp_dancer5_0.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer5_1",
+   "file": "sp_dancer5_1.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "dancer5_2",
+   "file": "sp_dancer5_2.webp",
+   "w": 150,
+   "h": 260,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  }
+ ],
+ "meta": {
+  "lamps": [
+   [
+    223.33333333333331,
+    646.644287109375,
+    39.0
+   ],
+   [
+    296.66666666666663,
+    646.644287109375,
+    39.0
+   ],
+   [
+    576.6666666666666,
+    636.6331665039063,
+    44.2
+   ],
+   [
+    663.3333333333334,
+    636.6331665039063,
+    44.2
+   ],
+   [
+    1598.3333333333333,
+    635.5985351562499,
+    41.6
+   ],
+   [
+    1681.6666666666667,
+    635.5985351562499,
+    41.6
+   ],
+   [
+    1961.6666666666667,
+    641.7335815429688,
+    39.0
+   ],
+   [
+    2038.3333333333333,
+    641.7335815429688,
+    39.0
+   ]
+  ],
+  "fire": [
+   1152.0,
+   980.88
+  ],
+  "ring": [
+   1152.0,
+   1010.88,
+   520,
+   130
+  ]
+ }
+}

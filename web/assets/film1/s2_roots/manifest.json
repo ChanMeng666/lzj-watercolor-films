@@ -1,0 +1,36 @@
+{
+ "name": "s2_roots",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "soil",
+   "file": "soil.webp",
+   "depth": 0.2
+  },
+  {
+   "name": "roots",
+   "file": "roots.webp",
+   "depth": 0.2,
+   "tmap": "roots_t.png"
+  },
+  {
+   "name": "tree",
+   "file": "tree.webp",
+   "depth": 0.2,
+   "tmap": "tree_t.png"
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "origin": [
+   1152.0,
+   532.4
+  ]
+ }
+}

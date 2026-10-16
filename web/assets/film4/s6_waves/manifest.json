@@ -1,0 +1,70 @@
+{
+ "name": "s6_waves",
+ "w": 2995,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "sea",
+   "file": "sea.webp",
+   "depth": 0.2
+  },
+  {
+   "name": "beach",
+   "file": "beach.webp",
+   "depth": 0.5
+  }
+ ],
+ "sprites": [
+  {
+   "name": "wave_rider",
+   "file": "sp_wave_rider.webp",
+   "w": 600,
+   "h": 560,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "wave_factory",
+   "file": "sp_wave_factory.webp",
+   "w": 700,
+   "h": 420,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "wave_ship",
+   "file": "sp_wave_ship.webp",
+   "w": 700,
+   "h": 520,
+   "anchor": [
+    0.5,
+    0.92
+   ]
+  }
+ ],
+ "meta": {
+  "spots": [
+   [
+    700,
+    1024.111328125
+   ],
+   [
+    1500,
+    1012.161865234375
+   ],
+   [
+    2300,
+    1033.4388427734375
+   ]
+  ]
+ }
+}

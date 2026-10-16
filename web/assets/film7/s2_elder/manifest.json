@@ -1,0 +1,28 @@
+{
+ "name": "s2_elder",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "elder": [
+   1267.2,
+   877.17919921875
+  ],
+  "clerk": [
+   737.28,
+   966.8311767578125
+  ]
+ }
+}

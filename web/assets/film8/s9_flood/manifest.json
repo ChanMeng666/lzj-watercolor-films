@@ -1,0 +1,33 @@
+{
+ "name": "s9_flood",
+ "w": 2764,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "banks",
+   "file": "banks.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "flood",
+   "file": "flood.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "tree": [
+   663.36,
+   495.9708251953125
+  ],
+  "sand": [
+   2073.0,
+   771.6300048828125
+  ]
+ }
+}

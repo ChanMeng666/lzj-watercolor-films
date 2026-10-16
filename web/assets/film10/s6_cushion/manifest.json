@@ -1,0 +1,19 @@
+{
+ "name": "s6_cushion",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "room",
+   "file": "room.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "cushions",
+   "file": "cushions.webp",
+   "depth": 0.4
+  }
+ ],
+ "sprites": [],
+ "meta": {}
+}

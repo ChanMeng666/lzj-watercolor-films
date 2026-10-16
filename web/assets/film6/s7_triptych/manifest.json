@@ -1,0 +1,19 @@
+{
+ "name": "s7_triptych",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "paper",
+   "file": "paper.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "panels",
+   "file": "panels.webp",
+   "depth": 0.3
+  }
+ ],
+ "sprites": [],
+ "meta": {}
+}

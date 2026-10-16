@@ -1,0 +1,66 @@
+{
+ "name": "s9_pigment",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "paper",
+   "file": "paper.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "ink",
+   "file": "ink.webp",
+   "depth": 0.3
+  },
+  {
+   "name": "color",
+   "file": "color.webp",
+   "depth": 0.3,
+   "tmap": "color_t.png"
+  }
+ ],
+ "sprites": [
+  {
+   "name": "camel_0",
+   "file": "sp_camel_0.webp",
+   "w": 260,
+   "h": 240,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "camel_1",
+   "file": "sp_camel_1.webp",
+   "w": 260,
+   "h": 240,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "camel_2",
+   "file": "sp_camel_2.webp",
+   "w": 260,
+   "h": 240,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "camel_3",
+   "file": "sp_camel_3.webp",
+   "w": 260,
+   "h": 240,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  }
+ ],
+ "meta": {}
+}

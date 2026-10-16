@@ -1,0 +1,29 @@
+{
+ "name": "s3_autumn",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "palace",
+   "file": "palace.webp",
+   "depth": 0.3
+  },
+  {
+   "name": "square",
+   "file": "square.webp",
+   "depth": 0.6
+  },
+  {
+   "name": "trees",
+   "file": "trees.webp",
+   "depth": 1.0
+  }
+ ],
+ "sprites": [],
+ "meta": {}
+}

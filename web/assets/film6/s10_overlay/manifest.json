@@ -1,0 +1,29 @@
+{
+ "name": "s10_overlay",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "map",
+   "file": "map.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "gaps",
+   "file": "gaps.webp",
+   "depth": 0.0
+  },
+  {
+   "name": "red",
+   "file": "red.webp",
+   "depth": 0.0
+  },
+  {
+   "name": "blue",
+   "file": "blue.webp",
+   "depth": 0.0
+  }
+ ],
+ "sprites": [],
+ "meta": {}
+}

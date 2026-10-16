@@ -1,0 +1,30 @@
+{
+ "name": "s10_palace",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "beams",
+   "file": "beams.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "facade",
+   "file": "facade.webp",
+   "depth": 0.4,
+   "tmap": "facade_t.png"
+  }
+ ],
+ "sprites": [],
+ "meta": {}
+}

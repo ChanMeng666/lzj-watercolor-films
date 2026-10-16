@@ -1,0 +1,30 @@
+{
+ "name": "s8_seeds",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "sprouts",
+   "file": "sprouts.webp",
+   "depth": 0.45,
+   "tmap": "sprouts_t.png"
+  },
+  {
+   "name": "fg",
+   "file": "fg.webp",
+   "depth": 0.95
+  }
+ ],
+ "sprites": [],
+ "meta": {}
+}

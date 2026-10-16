@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>劉仲敬思想 · 水彩短片</title>
+<style>
+  @font-face { font-family: 'Kai'; src: url('fonts/LXGWWenKaiTC-Medium.ttf'); }
+  @font-face { font-family: 'Serif'; src: url('fonts/NotoSerifTC-SemiBold.otf'); }
+  html, body { margin: 0; background: #111; overflow: hidden; }
+  canvas { display: block; width: 1920px; height: 1080px; }
+  body.preview canvas { width: 100vw; height: 56.25vw; }
+  #bar { position: fixed; left: 0; bottom: 0; right: 0; color: #ddd; font: 13px sans-serif; padding: 6px; background: #000a; display: none; }
+  body.preview #bar { display: block; }
+  /* 預熱字體 */
+  .warm { position: absolute; left: -9999px; }
+</style>
+</head>
+<body>
+<span class="warm" style="font-family:Kai">劉仲敬</span><span class="warm" style="font-family:Serif">劉仲敬</span>
+<canvas id="c" width="1920" height="1080"></canvas>
+<div id="bar"><input id="sl" type="range" min="0" max="1000" value="0" style="width:70%"> <span id="tt"></span>
+  <button id="pl">▶</button></div>
+<script type="module">
+  import { Player } from './lib/engine.js';
+  const q = new URLSearchParams(location.search);
+  const id = q.get('film') || 'film1';
+  const film = (await import(`./films/${id}.js`)).default;
+  film.id = id;
+  const P = new Player(document.getElementById('c'), film, '.');
+  await Promise.all([document.fonts.load('58px Kai', '劉仲敬'), document.fonts.load('58px Serif', '劉仲敬')]);
+  await P.init();
+  window.__meta = { dur: P.duration, fps: 30, w: 1920, h: 1080 };
+  window.__seek = async t => { await P.seek(t); };
+  window.renderAt = window.__seek;
+  window.__ready = true;
+  if (q.has('preview')) {
+    document.body.classList.add('preview');
+    const sl = document.getElementById('sl'), tt = document.getElementById('tt');
+    let T = +(q.get('t') || 0), playing = false, last = 0;
+    const show = async () => { await P.seek(T); tt.textContent = T.toFixed(2) + ' / ' + P.duration.toFixed(1); sl.value = T / P.duration * 1000; };
+    sl.oninput = () => { T = sl.value / 1000 * P.duration; show(); };
+    document.getElementById('pl').onclick = () => { playing = !playing; last = performance.now(); if (playing) loop(); };
+    const loop = async () => { if (!playing) return; const n = performance.now(); T = (T + (n - last) / 1000) % P.duration; last = n; await show(); requestAnimationFrame(loop); };
+    show();
+  }
+</script>
+</body>
+</html>

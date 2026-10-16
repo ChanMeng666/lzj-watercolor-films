@@ -1,0 +1,35 @@
+{
+ "name": "s9_germanic",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "forest",
+   "file": "forest.webp",
+   "depth": 0.3
+  },
+  {
+   "name": "soil",
+   "file": "soil.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "cathedral",
+   "file": "cathedral.webp",
+   "depth": 0.45,
+   "tmap": "cathedral_t.png"
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "seed": [
+   1152.0,
+   1134.56
+  ]
+ }
+}

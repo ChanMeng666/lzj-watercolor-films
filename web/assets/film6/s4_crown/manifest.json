@@ -1,0 +1,30 @@
+{
+ "name": "s4_crown",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "hall",
+   "file": "hall.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "throne",
+   "file": "throne.webp",
+   "depth": 0.4
+  },
+  {
+   "name": "crown",
+   "file": "crown.webp",
+   "depth": 0.4,
+   "tmap": "crown_t.png"
+  }
+ ],
+ "sprites": [],
+ "meta": {
+  "seat": [
+   1152.0,
+   814.56
+  ]
+ }
+}

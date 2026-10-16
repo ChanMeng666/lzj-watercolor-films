@@ -1,0 +1,106 @@
+{
+ "name": "s5_chase",
+ "w": 2764,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "fg",
+   "file": "fg.webp",
+   "depth": 0.95
+  }
+ ],
+ "sprites": [
+  {
+   "name": "runner_0",
+   "file": "sp_runner_0.webp",
+   "w": 220,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "runner_1",
+   "file": "sp_runner_1.webp",
+   "w": 220,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "runner_2",
+   "file": "sp_runner_2.webp",
+   "w": 220,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "runner_3",
+   "file": "sp_runner_3.webp",
+   "w": 220,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "bfly_0",
+   "file": "sp_bfly_0.webp",
+   "w": 200,
+   "h": 180,
+   "anchor": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "name": "bfly_1",
+   "file": "sp_bfly_1.webp",
+   "w": 200,
+   "h": 180,
+   "anchor": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "name": "bfly_2",
+   "file": "sp_bfly_2.webp",
+   "w": 200,
+   "h": 180,
+   "anchor": [
+    0.5,
+    0.5
+   ]
+  }
+ ],
+ "meta": {
+  "rower": [
+   2125.92,
+   924.56
+  ],
+  "path_y": 964.0267333984375
+ }
+}

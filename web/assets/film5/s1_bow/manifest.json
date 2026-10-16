@@ -1,0 +1,55 @@
+{
+ "name": "s1_bow",
+ "w": 2304,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "shadow",
+   "file": "shadow.webp",
+   "depth": 0.1
+  },
+  {
+   "name": "mid",
+   "file": "mid.webp",
+   "depth": 0.45
+  },
+  {
+   "name": "fg",
+   "file": "fg.webp",
+   "depth": 0.95
+  }
+ ],
+ "sprites": [
+  {
+   "name": "bower_0",
+   "file": "sp_bower_0.webp",
+   "w": 220,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  },
+  {
+   "name": "bower_1",
+   "file": "sp_bower_1.webp",
+   "w": 220,
+   "h": 300,
+   "anchor": [
+    0.5,
+    0.97
+   ]
+  }
+ ],
+ "meta": {
+  "bower": [
+   691.1999999999999,
+   1064.7901611328125
+  ]
+ }
+}

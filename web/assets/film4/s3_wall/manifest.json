@@ -1,0 +1,95 @@
+{
+ "name": "s3_wall",
+ "w": 2880,
+ "h": 1296,
+ "layers": [
+  {
+   "name": "sky",
+   "file": "sky.jpg",
+   "depth": 0.0
+  },
+  {
+   "name": "far",
+   "file": "far.webp",
+   "depth": 0.15
+  },
+  {
+   "name": "steppe",
+   "file": "steppe.webp",
+   "depth": 0.3
+  },
+  {
+   "name": "wall",
+   "file": "wall.webp",
+   "depth": 0.55
+  },
+  {
+   "name": "fg",
+   "file": "fg.webp",
+   "depth": 0.95
+  }
+ ],
+ "sprites": [
+  {
+   "name": "rider_0",
+   "file": "sp_rider_0.webp",
+   "w": 600,
+   "h": 560,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "rider_1",
+   "file": "sp_rider_1.webp",
+   "w": 600,
+   "h": 560,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "rider_2",
+   "file": "sp_rider_2.webp",
+   "w": 600,
+   "h": 560,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  },
+  {
+   "name": "rider_3",
+   "file": "sp_rider_3.webp",
+   "w": 600,
+   "h": 560,
+   "anchor": [
+    0.5,
+    0.96
+   ]
+  }
+ ],
+ "meta": {
+  "towers": [
+   [
+    300.0,
+    716.8
+   ],
+   [
+    1000.0,
+    716.8
+   ],
+   [
+    1700.0,
+    716.8
+   ],
+   [
+    2400.0,
+    716.8
+   ]
+  ],
+  "ride_y": 803.52
+ }
+}
