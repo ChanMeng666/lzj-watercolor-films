@@ -1,87 +1,97 @@
-<p align="center">
-  <img src="docs/images/series-grid.jpg" width="100%" alt="Title frames of the fourteen films, painted in procedural watercolour">
-</p>
+<div align="center">
 
 # Liu Zhongjing in Watercolour
 
-**Fourteen short explainer films on the thought of the historian and political theorist Liu Zhongjing (劉仲敬), drawn entirely in code.** Python paints procedural watercolour layers, WebGL and Canvas animate them, headless Chrome renders every frame and ffmpeg adds an original score played on recorded instruments. No image or video generation model, no photograph and no stock footage is used for the picture.
+**Fourteen short explainer films on the thought of Liu Zhongjing (劉仲敬), painted entirely in code: a procedural watercolour engine in Python, WebGL compositing in the browser, and a headless Chrome frame renderer.**
 
-Each film takes one framework from his work and builds it as an argument in 7 to 13 chapters (claim → mechanism → historical examples → a twist → what follows), with on-screen Traditional Chinese captions. Every captioned quotation is verbatim from his writings, lectures and interviews and carries its source on screen.
+<img src="docs/images/series-grid.jpg" width="100%" alt="Title frames of the fourteen films, painted in procedural watercolour">
 
-The companion project [Liu Zhongjing's History, in Maps](https://github.com/ChanMeng666/lzj-history-maps) puts the same ideas on animated maps of the Chinese mainland, the People's Republic and the world.
+</div>
+
+The ideas and the quotations are Liu Zhongjing's. No image or video generation model, photograph or stock footage is used for the picture. Companion series: [Liu Zhongjing's History, in Maps](https://github.com/ChanMeng666/lzj-history-maps).
 
 ## The films
 
-| # | Title | Subject | Length |
-|---|---|---|---|
-| 1 | 《根》 *Roots* | Order grows, it is not designed; self-organising resources as a civilisation's capital; bureaucracy as the "harvester" that fixes its ceiling | 1:46 |
-| 2 | 《四季》 *Four Seasons* | The seasons of a civilisation: feudal spring, free-city summer, bureaucratic autumn, the spending of the golden age, a winter of scattered sand, renewal from the frontier | 1:46 |
-| 3 | 《守先待後》 *Keeping the Seed* | What survives the flood: the seed that must still sprout; digging holes and planting trees; hope kept in small groups | 1:38 |
-| 4 | 《窪地》 *The Basin* | Order is imported and exported like weather; an empire as a basin of order; the revolving door of Inner Asia; imitation that degrades with every generation; a twist on the film's own medium | 2:30 |
-| 5 | 《散沙》 *Scattered Sand* | Atomised subjects by design; the registered household; the economics of the cut-and-regrow harvest; why mutual harm is short-term rational; organisations that collapse under the first pressure; the golden age of the last men | 2:34 |
-| 6 | 《發明》 *Invention* | Nations are invented; 1789 and 1848; empire's counter-nationalisms; the boomerang; borders before left and right; a world of many states | 2:59 |
-| 7 | 《小路》 *The Footpath* | Common law as a path trodden through the forest; law found, not made; a market of precedents; the feudal contract; the jury; a state without a sovereign | 2:48 |
-| 8 | 《血酬》 *Blood Reward* | Sovereignty from arms; pensions for the fallen; courage and fairness; local strongmen and militias; buying protection with salt; how repression selects tougher strains | 2:34 |
-| 9 | 《黑匣子》 *The Black Box* | Three generations of civilisation; the Hebrew canon as a black box and seed bank; the steppe as an ocean; barbarian soil; piety over theology | 2:47 |
-| 10 | 《胡蘿蔔》 *The Carrot* | His anti-self-help advice: happiness as morphine, the donkey and the carrot, the cost of pretending, acting before knowing, the moment of decision | 2:47 |
-| 11 | 《霉菌》 *Mould* | Fervent believers produce order; mould keeps bacteria out; wiping it away lets the hardest strains in; the church as the root of welfare and the hidden root system of a civilisation; secular energy as reflected moonlight; winter, and the seeds that survive | 2:46 |
-| 12 | 《梯子》 *The Ladder* | Liberal education: train first and ask why later; a sense of the board outlasts the material; the exam-taker as an endurance labourer; tacit skill; the classic as a seed; knowing as deleting; every map serves a purpose; the water spider; theory as a ladder | 2:39 |
-| 13 | 《宗族》 *The Clan* | Family and the small community: the clan as an inner circle; organisation beats bloodline; the small community is the welfare system; marriage as alliance; eating the grandchildren's rice; climbing takes generations; children see backstage; rebuilding the small community | 2:42 |
-| 14 | 《車站》 *The Station* | Nodes and founding: the pattern decides the path; between nodes you ride the rails, at a node you change trains; 1972 opening the sluice gate; decision as a wager and as childbirth; the Romulus moment; wandering scholars and rooted strongmen; founders; those who can wait | 2:41 |
+### Roots 《根》
+<!-- FILM: liu-zhongjing-roots · 16:9 · 1:46 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/p-LRdBfJyuI
 
-Shot lists and the source of every quotation: [`docs/STORYBOARD.md`](docs/STORYBOARD.md) (films 1–3), [`docs/STORYBOARD_2.md`](docs/STORYBOARD_2.md) (films 4–10) and [`docs/STORYBOARD_3.md`](docs/STORYBOARD_3.md) (films 11–14).
+### Four Seasons 《四季》
+<!-- FILM: liu-zhongjing-four-seasons · 16:9 · 1:46 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/en5LAyvK8Kw
 
-<p align="center"><img src="docs/images/contact-film4.jpg" width="100%" alt="One frame every eight seconds from film 4, The Basin"></p>
+### Keeping the Seed 《守先待後》
+<!-- FILM: liu-zhongjing-keeping-the-seed · 16:9 · 1:38 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/98k0f22QKtc
 
-## How a frame is made
+### The Basin 《窪地》
+<!-- FILM: liu-zhongjing-the-basin · 16:9 · 2:30 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/PXzgyn3u4bA
 
-```mermaid
-flowchart LR
-  A["scenes/*.py<br/>scene described in code"] --> B["engine/wc.py<br/>watercolour engine"]
-  B --> C["web/assets<br/>depth layers, growth maps, sprites"]
-  C --> D["web/lib/engine.js<br/>WebGL parallax, transitions, grade"]
-  E["web/lib/fx.js + type.js<br/>lamps, snow, fireworks, captions"] --> D
-  D --> F["render.mjs<br/>parallel headless Chrome"]
-  G["audio/score*.py<br/>sampled instruments"] --> H["ffmpeg"]
-  F --> H --> I["out/film*.mp4"]
-```
+### Scattered Sand 《散沙》
+<!-- FILM: liu-zhongjing-scattered-sand · 16:9 · 2:34 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/zKfOdkfVyLY
 
-1. **Painting (Python, numpy + OpenCV).** `engine/wc.py` keeps each layer as a transmittance map and glazes transparent pigment onto it in a simplified Kubelka–Munk way, so a yellow wash over a blue one really makes green. It models paper grain and granulation, pigment pooling at a wash's edge, wet-in-wet bleeding, backruns and lifting. Pen lines are generated with spline resampling, low-frequency tremor, pressure, a pressed start and a tapered finish, and dry-brush breaks. `engine/motifs*.py` hold the motifs: skies, mountains with snow caps, trees and roots, houses, castles, palaces and walls, figures, horses, camels, chariots, ships, bronze vessels, a blue-green landscape in mineral pigments, and more. Each scene in `scenes/film*.py` is split into depth layers and saved as WebP with optional growth maps (roots spreading, a tree growing, wheat cut, snow melting) and animation sprites. 153 scenes in all.
-2. **Animating (browser).** `web/lib/engine.js` composites the layers in WebGL 2 with a parallax camera and growth masks; `fx.js` draws lamps, smoke, rain, snow, petals, leaves, fireworks, stars, fire and candlelight; `type.js` sets the captions (horizontal or vertical, ink bleeding in character by character, red-seal chapter cards, emphasis in vermilion, ink notes that point at objects in the picture). A post shader adds the grade, the paper, the vignette and a watercolour-bleed transition with a dark tide line. Every frame is a pure function of time.
-3. **Rendering.** `render.mjs` serves `web/`, opens several headless Chrome workers, captures each frame and hands the sequence and the score to ffmpeg (x264, CRF 17, tuned for grain).
+### Invention 《發明》
+<!-- FILM: liu-zhongjing-invention · 16:9 · 2:59 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/kNxHbWrHNOs
 
-## The music
+### The Footpath 《小路》
+<!-- FILM: liu-zhongjing-the-footpath · 16:9 · 2:48 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/ZKPJGwkNdsk
 
-Each film has its own score (`audio/score.py` for films 1–3, `audio/score2.py` with the arrangement library `audio/arrange.py` for films 4–10, and `audio/score_film11.py` to `audio/score_film14.py` for films 11–14), written to the scene boundaries at 60 BPM and played back from recorded instruments by `audio/lib/sampler.py`: string sections, solo violin, woodwinds and brass from VSCO 2 Community Edition, the Salamander grand piano, harp, tubular bells, hand chimes, glockenspiel and the đàn tranh zither from VCSL, and erhu from Karoryfer. Sound effects are instruments too: a harp glissando for a falling seed, timpani and glockenspiel for fireworks, pizzicato for a clock. Loudness is normalised statically to −16 LUFS with a −1.5 dBFS ceiling.
+### Blood Reward 《血酬》
+<!-- FILM: liu-zhongjing-blood-reward · 16:9 · 2:34 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/uo0T_Bdtbew
 
-## Run it
+### The Black Box 《黑匣子》
+<!-- FILM: liu-zhongjing-the-black-box · 16:9 · 2:47 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/iBLGHhoRL5g
 
-Requirements: Python 3 (numpy, opencv-python, scipy, soundfile, soxr, opencc), Node 18+, Google Chrome, ffmpeg. The instrument libraries are not in this repo; `audio/lib/sampler.py` reads them from `LZJ_INSTRUMENTS` (default `D:/github_repository/lemo-opuscar/core/audio/instruments`).
+### The Carrot 《胡蘿蔔》
+<!-- FILM: liu-zhongjing-the-carrot · 16:9 · 2:47 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/Bir_XTmdCfw
+
+### Mould 《霉菌》
+<!-- FILM: liu-zhongjing-mould · 16:9 · 2:46 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/nCmURADzMoY
+
+### The Ladder 《梯子》
+<!-- FILM: liu-zhongjing-the-ladder · 16:9 · 2:39 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/hNqoy6IL4b4
+
+### The Clan 《宗族》
+<!-- FILM: liu-zhongjing-the-clan · 16:9 · 2:42 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/V81DCtHuvAs
+
+### The Station 《車站》
+<!-- FILM: liu-zhongjing-the-station · 16:9 · 2:41 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/uRqo56M73dk
+
+## How it's made
+
+- **Painted by code.** `engine/wc.py` glazes transparent pigment onto transmittance maps (a simplified Kubelka–Munk mix), with paper grain, granulation, edge pooling, wet-in-wet bleeds, backruns and tremoring pen lines. Each scene in `scenes/film*.py` is saved as depth layers, growth maps and sprites (Python, numpy, OpenCV).
+- **Animated in the browser.** `web/lib/engine.js` composites the layers in WebGL 2 with a parallax camera, growth masks and an ink-bleed transition; `fx.js` adds lamps, snow, fire and fireworks; `type.js` sets Traditional Chinese captions that bleed in character by character. Every frame is a pure function of time.
+- **Rendered frame by frame.** `render.mjs` runs parallel headless Chrome workers (playwright-core), captures each frame and encodes with ffmpeg.
+- **Scored in code.** `audio/score*.py` write each score to the scene boundaries and play it from recorded instrument samples, normalised to −16 LUFS.
+- **Quotations are sourced.** Every captioned quotation is verbatim and carries its source on screen; sources are listed in `docs/STORYBOARD*.md`.
+
+## Make your own
+
+Needs Python 3 (numpy, opencv-python, scipy, soundfile, soxr, opencc), Node 18+, Google Chrome and ffmpeg. The painted assets are committed; the instrument sample libraries are not: point `LZJ_INSTRUMENTS` at your own copy (see `audio/lib/sampler.py`).
 
 ```bash
 npm install
-python engine/textures.py            # paper and transition noise
-python engine/build.py --preview     # paint every scene (multiprocess); or: build.py film6
-python audio/score.py all            # scores for films 1-3
-python audio/score2.py all           # scores for films 4-10
-for n in 11 12 13 14; do python audio/score_film$n.py; done   # films 11-14
-node render.mjs film4 --stills 12,48 # check single frames
-node render.mjs film4 --workers 6    # render out/film4.mp4 (resumable)
+python engine/build.py film4           # optional: repaint one film's scenes
+python audio/score2.py film4           # score for films 4-10 (score.py: 1-3, score_film11..14.py: 11-14)
+node render.mjs film4 --stills 12,48   # check single frames
+node render.mjs film4 --workers 6      # out/film4.mp4
 ```
 
-To scrub a film in a browser, serve `web/` and open `player.html?film=film4&preview`.
+## Licence
 
-## Repository layout
+- **Code:** MIT ([LICENSE](LICENSE)).
+- **Films, scores, paintings and images made by Chan Meng:** CC BY 4.0 ([LICENSE-MEDIA.md](LICENSE-MEDIA.md)).
+- **Excluded:** the quoted text, which is Liu Zhongjing's and credited to him; fonts (LXGW WenKai TC, Noto Serif TC: SIL OFL 1.1); the Lemo-Opuscar sampler helpers (MIT, © 2026 LemoLab); instrument samples (their own licences, not redistributed); npm libraries (their licences). Full list: [NOTICE.md](NOTICE.md).
 
-| Path | Holds |
-|---|---|
-| `engine/` | watercolour engine, motif libraries, scene kit, parallel build |
-| `scenes/` | one file per film: how each scene is painted |
-| `web/` | player, compositing engine, effects, typography, timelines (`web/films/*.js`), painted assets, fonts |
-| `audio/` | scores, arrangement styles, sampler |
-| `docs/` | shot lists with quotation sources, README images |
-| `render.mjs` | frame capture and encode |
-
-## Credits
-
-Ideas and quotations: Liu Zhongjing. Concept, code, painting engine, animation and scores by Chan Meng with Claude Code. Third-party components and their licences are listed in [`NOTICE.md`](NOTICE.md).
+More detail: [docs/overview.md](docs/overview.md)
